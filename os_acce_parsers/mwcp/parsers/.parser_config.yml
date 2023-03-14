@@ -1,0 +1,7 @@
+# Parser configuration file use to organize parsers.
+
+Stealc:
+  description: Stealc malware
+  author: CT
+  parsers:
+    - .Stealer

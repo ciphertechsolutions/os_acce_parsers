@@ -1,0 +1,2083 @@
+{
+    "type": "report",
+    "tags": [],
+    "mwcp_version": "3.10.1",
+    "input_file": {
+        "type": "file",
+        "tags": [],
+        "name": "0d049f764a22e16933f8c3f1704d4e50_x86.exe",
+        "description": "Stealc Stealer",
+        "md5": "0d049f764a22e16933f8c3f1704d4e50",
+        "sha1": "5faad57c7341f76c18ae813e9fa9fbfe434f7b41",
+        "sha256": "77d6f1914af6caf909fa2a246fcec05f500f79dd56e5d0d466d55924695c702d",
+        "architecture": "x86",
+        "compile_time": "2023-01-28T15:39:36+00:00",
+        "file_path": null,
+        "data": null,
+        "derivation": null
+    },
+    "parser": "osacce:Stealc",
+    "recursive": false,
+    "errors": [],
+    "logs": [
+        "[+] File 0d049f764a22e16933f8c3f1704d4e50_x86.exe identified as Stealc Stealer.",
+        "[+] Starting parser Stealc Stealer on sample 0d049f764a22e16933f8c3f1704d4e50_x86.exe. Expected results include decrypted strings, an RC4 key, c2 url, and url paths.",
+        "[-] Failed to decompile function: Decompilation failed: 40190f: positive sp value has been found",
+        "[+] Completed parsing using Stealc Stealer for sample 0d049f764a22e16933f8c3f1704d4e50_x86.exe."
+    ],
+    "metadata": [
+        {
+            "type": "encryption_key",
+            "tags": [],
+            "key": "NzQ5MzQxNTc5MTk1NDYxMTM3OTU=",
+            "algorithm": "RC4-SkipKey",
+            "mode": null,
+            "iv": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "04",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "02",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "20",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "23",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetProcAddress",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "LoadLibraryA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "lstrcatA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "OpenEventA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateEventA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CloseHandle",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Sleep",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetUserDefaultLangID",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "VirtualAllocExNuma",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "VirtualFree",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetSystemInfo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "VirtualAlloc",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HeapAlloc",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetComputerNameA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "lstrcpyA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetProcessHeap",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetCurrentProcess",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "lstrlenA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ExitProcess",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GlobalMemoryStatusEx",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetSystemTime",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SystemTimeToFileTime",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "advapi32.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "gdi32.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "user32.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "crypt32.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ntdll.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetUserNameA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateDCA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetDeviceCaps",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ReleaseDC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CryptStringToBinaryA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sscanf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "VMwareVMware",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HAL9TH",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "JohnDoe",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DISPLAY",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%hu/%hu/%hu",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "http://162.0.238.10",
+            "encryption_key": null
+        },
+        {
+            "type": "url",
+            "tags": [],
+            "url": "http://162.0.238.10",
+            "socket": {
+                "type": "socket",
+                "tags": [],
+                "address": "162.0.238.10",
+                "port": null,
+                "network_protocol": null,
+                "c2": null,
+                "listen": null
+            },
+            "path": null,
+            "query": "",
+            "application_protocol": "http",
+            "credential": null
+        },
+        {
+            "type": "socket",
+            "tags": [],
+            "address": "162.0.238.10",
+            "port": null,
+            "network_protocol": null,
+            "c2": null,
+            "listen": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "/752e382b4dcf5e3f.php",
+            "encryption_key": null
+        },
+        {
+            "type": "url",
+            "tags": [],
+            "url": null,
+            "socket": null,
+            "path": "/752e382b4dcf5e3f.php",
+            "query": null,
+            "application_protocol": null,
+            "credential": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "/dbe4ef521ee4cc21/",
+            "encryption_key": null
+        },
+        {
+            "type": "url",
+            "tags": [],
+            "url": null,
+            "socket": null,
+            "path": "/dbe4ef521ee4cc21/",
+            "query": null,
+            "application_protocol": null,
+            "credential": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "default",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetEnvironmentVariableA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetFileAttributesA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GlobalLock",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HeapFree",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetFileSize",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GlobalSize",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateToolhelp32Snapshot",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "IsWow64Process",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Process32Next",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetLocalTime",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "FreeLibrary",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetTimeZoneInformation",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetSystemPowerStatus",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetVolumeInformationA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetWindowsDirectoryA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Process32First",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetLocaleInfoA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetUserDefaultLocaleName",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetModuleFileNameA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DeleteFileA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "FindNextFileA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "LocalFree",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "FindClose",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SetEnvironmentVariableA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "LocalAlloc",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetFileSizeEx",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ReadFile",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SetFilePointer",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "WriteFile",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateFileA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "FindFirstFileA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CopyFileA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "VirtualProtect",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetLogicalProcessorInformationEx",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetLastError",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "lstrcpynA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "MultiByteToWideChar",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GlobalFree",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "WideCharToMultiByte",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GlobalAlloc",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "gdiplus.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ole32.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "bcrypt.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "wininet.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "shlwapi.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "shell32.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateCompatibleBitmap",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SelectObject",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "BitBlt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DeleteObject",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateCompatibleDC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipGetImageEncodersSize",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipGetImageEncoders",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipCreateBitmapFromHBITMAP",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdiplusStartup",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdiplusShutdown",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipSaveImageToStream",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipDisposeImage",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipFree",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetHGlobalFromStream",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateStreamOnHGlobal",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CoUninitialize",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CoInitialize",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CoCreateInstance",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "BCryptGenerateSymmetricKey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "BCryptCloseAlgorithmProvider",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "BCryptDecrypt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "BCryptSetProperty",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "BCryptDestroyKey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "BCryptOpenAlgorithmProvider",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetWindowRect",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetDesktopWindow",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetDC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CloseWindow",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "wsprintfA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "EnumDisplayDevicesA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetKeyboardLayoutList",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CharToOemW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "RegQueryValueExA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "RegEnumKeyExA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "RegOpenKeyExA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "RegCloseKey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "RegEnumValueA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CryptBinaryToStringA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CryptUnprotectData",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SHGetFolderPathA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ShellExecuteExA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetOpenUrlA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetConnectA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetCloseHandle",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetOpenA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HttpSendRequestA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HttpOpenRequestA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetReadFile",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetCrackUrlA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "StrCmpCA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "StrStrA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "StrCmpCW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "PathMatchSpecA",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3_open",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3_prepare_v2",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3_step",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3_column_text",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3_finalize",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3_close",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3_column_bytes",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3_column_blob",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "encrypted_key",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "PATH",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "C:\\ProgramData\\nss3.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "NSS_Init",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "NSS_Shutdown",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "PK11_GetInternalKeySlot",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "PK11_FreeSlot",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "PK11_Authenticate",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "PK11SDR_Decrypt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "C:\\ProgramData\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SELECT origin_url, username_value, password_value FROM logins",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "browser: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "profile: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "url: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "login: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "password: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Opera",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "OperaGX",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Network",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": ".txt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SELECT HOST_KEY, is_httponly, path, is_secure, (expires_utc/1000000)-11644480800, name, encrypted_value from cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "TRUE",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "FALSE",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "autofill",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SELECT name, value FROM autofill",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "history",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SELECT url FROM urls LIMIT 1000",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "cc",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SELECT name_on_card, expiration_month, expiration_year, card_number_encrypted FROM credit_cards",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "name: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "month: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "year: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "card: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Login Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Web Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "History",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "logins.json",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "formSubmitURL",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "usernameField",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "encryptedUsername",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "encryptedPassword",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "guid",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SELECT host, isHttpOnly, path, isSecure, expiry, name, value FROM moz_cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SELECT fieldname, value FROM moz_formhistory",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SELECT url FROM moz_places LIMIT 1000",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "cookies.sqlite",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "formhistory.sqlite",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "places.sqlite",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "plugins",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Local Extension Settings",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Sync Extension Settings",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "IndexedDB",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Opera Stable",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Opera GX Stable",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CURRENT",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "chrome-extension_",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "_0.indexeddb.leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Local State",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "profiles.ini",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "chrome",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "opera",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "firefox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "wallets",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%08lX%04lX%lu",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ProductName",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "x32",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "x64",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%d/%d/%d %d:%d:%d",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HARDWARE\\DESCRIPTION\\System\\CentralProcessor\\0",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ProcessorNameString",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DisplayName",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DisplayVersion",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "System Summary:",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- HWID: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- OS: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- Architecture: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- UserName: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- Computer Name: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- Local Time: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- UTC: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- Language: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- Keyboards: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- Laptop: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- CPU: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- Threads: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- Cores: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- RAM: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\t- GPU:",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Installed Apps:",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "All Users:",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Current User:",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Process List:",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "system_info.txt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "freebl3.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "mozglue.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "msvcp140.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "nss3.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "softokn3.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "vcruntime140.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\Temp\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": ".exe",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "runas",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "open",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "/c start ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%DESKTOP%",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%APPDATA%",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%LOCALAPPDATA%",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%USERPROFILE%",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%DOCUMENTS%",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%PROGRAMFILES%",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%PROGRAMFILES_86%",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%RECENT%",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "*.lnk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "files",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\discord\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\Local Storage\\leveldb\\CURRENT",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\Local Storage\\leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\Telegram Desktop\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "key_datas",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "D877F783D5D3EF8C*",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "map*",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "A7FDF864FBC10B77*",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "A92DAA6EA6F891F2*",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "F8806DD0C461824F*",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Telegram",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Tox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "*.tox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "*.ini",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Password",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows Messaging Subsystem\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Software\\Microsoft\\Office\\13.0\\Outlook\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Software\\Microsoft\\Office\\14.0\\Outlook\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Software\\Microsoft\\Office\\15.0\\Outlook\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Software\\Microsoft\\Office\\16.0\\Outlook\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "oftware\\Microsoft\\Windows Messaging Subsystem\\Profiles\\9375CFF0413111d3B88A00104B2A6676\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "00000001",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "00000002",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "00000003",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "00000004",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\Outlook\\accounts.txt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Pidgin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\.purple\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "accounts.xml",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "dQw4w9WgXcQ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "token: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Software\\Valve\\Steam",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SteamPath",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\config\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ssfn*",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "config.vdf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DialogConfig.vdf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DialogConfigOverlay*.vdf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "libraryfolders.vdf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "loginusers.vdf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\Steam\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "sqlite3.dll",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "browsers",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "done",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "soft",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\\Discord\\tokens.txt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "/c timeout /t 5 & del /f /q \"",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "\" & del \"C:\\ProgramData\\*.dll\"\" & exit",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "C:\\Windows\\system32\\cmd.exe",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "https",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Content-Type: multipart/form-data; boundary=----",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "POST",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HTTP/1.1",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Content-Disposition: form-data; name=\"",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "hwid",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "build",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "token",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "file_name",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "file",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "message",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "screenshot.jpg",
+            "encryption_key": null
+        }
+    ]
+}
