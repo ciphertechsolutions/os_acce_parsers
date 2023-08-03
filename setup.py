@@ -59,9 +59,9 @@ common = [
 ]
 
 core_dependencies = [
-    'mwcp==3.10.1',
+    'mwcp==3.13.0',
     'dragodis==0.7.1',
-    'rugosa==0.7.0'
+    'rugosa==0.8.0'
 ]
 
 
@@ -88,6 +88,6 @@ setup(
     },
     install_requires=core_dependencies,
     package_data={
-        'acce_parsers': ['resources/*', 'resources/rules/*'],
+        'os_acce_parsers': ['resources/*', 'resources/rules/*'],
     }
 )

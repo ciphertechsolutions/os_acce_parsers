@@ -1,5 +1,12 @@
 # Parser configuration file use to organize parsers.
 
+Meduza:
+  description: Meduza malware
+  author: CT
+  parsers:
+    - .Stealerx86
+    - .Stealerx64
+
 Stealc:
   description: Stealc malware
   author: CT

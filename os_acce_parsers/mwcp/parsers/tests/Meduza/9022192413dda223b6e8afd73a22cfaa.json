@@ -1,0 +1,4647 @@
+{
+    "type": "report",
+    "tags": [],
+    "mwcp_version": "3.13.0",
+    "input_file": {
+        "type": "file",
+        "tags": [],
+        "name": "9022192413dda223b6e8afd73a22cfaa_x86.exe",
+        "description": "Meduza Stealer (x86)",
+        "md5": "9022192413dda223b6e8afd73a22cfaa",
+        "sha1": "dbfc6d6667fcc47daa13a317c8791a93f5e495b0",
+        "sha256": "f575eb5246b5c6b9044ea04610528c040c982904a5fb3dc1909ce2f0ec15c9ef",
+        "architecture": "x86",
+        "compile_time": "2023-06-24T18:41:12+00:00",
+        "file_path": null,
+        "data": null,
+        "derivation": null
+    },
+    "parser": "osacce:Meduza",
+    "recursive": false,
+    "external_knowledge": {},
+    "errors": [],
+    "logs": [
+        "[+] File 9022192413dda223b6e8afd73a22cfaa_x86.exe identified as Meduza Stealer (x86).",
+        "[+] Starting parser Meduza Stealer (x86) on sample 9022192413dda223b6e8afd73a22cfaa_x86.exe. Expected results include decrypted strings, a c2 socket address, and possibly a missionid.",
+        "[-] Failed to get stack information for function argument: < FunctionArg 0x41e910:0 : int  = 0x0 : & = 0x117f804 >",
+        "[-] Failed to get stack information for function argument: < FunctionArg 0x41e910:1 : int  = 0x0 : & = 0x117f808 >",
+        "[+] Completed parsing using Meduza Stealer (x86) for sample 9022192413dda223b6e8afd73a22cfaa_x86.exe."
+    ],
+    "metadata": [
+        {
+            "type": "mission_id",
+            "tags": [],
+            "value": "work1"
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004011fd"
+            ],
+            "value": "Coinomi\\Coinomi\\wallets",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040130d"
+            ],
+            "value": "Coinomi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401427"
+            ],
+            "value": "DashCore",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401537"
+            ],
+            "value": "Dash",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040164e"
+            ],
+            "value": "LitecoinCore",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040174c"
+            ],
+            "value": "Litecoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401867"
+            ],
+            "value": "BitcoinCore",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401977"
+            ],
+            "value": "Bitcoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401a8e"
+            ],
+            "value": "DogecoinCore",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401b9b"
+            ],
+            "value": "Dogecoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401cb7"
+            ],
+            "value": "QtumCore",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401dc7"
+            ],
+            "value": "Qtum",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401ede"
+            ],
+            "value": "Armory",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00401feb"
+            ],
+            "value": "Armory",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402107"
+            ],
+            "value": "bytecoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402217"
+            ],
+            "value": "Bytecoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040232e"
+            ],
+            "value": "MultiBit",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040243b"
+            ],
+            "value": "MultiBit",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402787"
+            ],
+            "value": "com.liberty.jaxx\\IndexedDB\\file__0.indexeddb.leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402887"
+            ],
+            "value": "Jaxx Liberty",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402a57"
+            ],
+            "value": "Exodus\\exodus.wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402b57"
+            ],
+            "value": "Exodus",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402c6e"
+            ],
+            "value": "Exodus",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402d7b"
+            ],
+            "value": "Exodus",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00402f49"
+            ],
+            "value": "Ethereum\\keystore",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403057"
+            ],
+            "value": "Ethereum",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403227"
+            ],
+            "value": "Electrum\\wallets",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403337"
+            ],
+            "value": "Electrum",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040344e"
+            ],
+            "value": "Electrum\\config",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040355b"
+            ],
+            "value": "Electrum",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403729"
+            ],
+            "value": "Electrum-LTC\\wallets",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403837"
+            ],
+            "value": "Electrum-LTC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403a07"
+            ],
+            "value": "Electrum-LTC\\config",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403b17"
+            ],
+            "value": "Electrum-LTC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403c2e"
+            ],
+            "value": "atomic",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403d3b"
+            ],
+            "value": "Atomic Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00403f09"
+            ],
+            "value": "atomic\\Local Storage\\leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00404017"
+            ],
+            "value": "Atomic Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004041e7"
+            ],
+            "value": "Guarda\\Local Storage\\leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004042f7"
+            ],
+            "value": "Guarda",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004044c7"
+            ],
+            "value": "WalletWasabi\\Client\\Wallets",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004045d7"
+            ],
+            "value": "WalletWasabi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004047a7"
+            ],
+            "value": "WalletWasabi\\Client\\Config.json",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004048b7"
+            ],
+            "value": "WalletWasabi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00404a87"
+            ],
+            "value": "ElectronCash\\wallets",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00404b97"
+            ],
+            "value": "ElectronCash",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00404d67"
+            ],
+            "value": "ElectronCash\\config",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00404e77"
+            ],
+            "value": "ElectronCash",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00404f8e"
+            ],
+            "value": "Sparrow\\config",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040509b"
+            ],
+            "value": "Sparrow",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004051b7"
+            ],
+            "value": "Sparrow\\wallets",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004052c7"
+            ],
+            "value": "Sparrow",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004053de"
+            ],
+            "value": "IOCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004054eb"
+            ],
+            "value": "IOCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00405607"
+            ],
+            "value": "PPCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00405717"
+            ],
+            "value": "PPCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040582e"
+            ],
+            "value": "BBQCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040593b"
+            ],
+            "value": "BBQCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00405a57"
+            ],
+            "value": "Mincoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00405b67"
+            ],
+            "value": "Mincoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00405c7e"
+            ],
+            "value": "devcoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00405d8b"
+            ],
+            "value": "DevCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00405ea7"
+            ],
+            "value": "YACoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00405fb7"
+            ],
+            "value": "YACoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004060ce"
+            ],
+            "value": "Franko",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004061db"
+            ],
+            "value": "Franko",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004062f7"
+            ],
+            "value": "FreiCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00406407"
+            ],
+            "value": "FreiCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040651e"
+            ],
+            "value": "InfiniteCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040662b"
+            ],
+            "value": "InfiniteCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00406747"
+            ],
+            "value": "GoldCoin (GLD)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00406857"
+            ],
+            "value": "GoldCoinGLD",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040696e"
+            ],
+            "value": "Binance",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00406a7b"
+            ],
+            "value": "Binance",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00406c49"
+            ],
+            "value": "Binance\\Local Storage\\leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00406d57"
+            ],
+            "value": "Binance Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00406e6e"
+            ],
+            "value": "Binance\\wallets",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00406f7b"
+            ],
+            "value": "Binance Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00407097"
+            ],
+            "value": "Terracoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004071a7"
+            ],
+            "value": "Terracoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00407377"
+            ],
+            "value": "Daedalus Mainnet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040753b"
+            ],
+            "value": "Daedalus Mainnet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00407709"
+            ],
+            "value": "MyMonero\\Local Storage\\leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00407817"
+            ],
+            "value": "MyMonero",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004079e7"
+            ],
+            "value": "MyCrypto\\Local Storage\\leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00407af7"
+            ],
+            "value": "MyCrypto",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00407cc7"
+            ],
+            "value": "atomic_qt\\config",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00407dd7"
+            ],
+            "value": "AtomicDEX",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00407fa7"
+            ],
+            "value": "Bisq\\btc_mainnet\\keys",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004080a7"
+            ],
+            "value": "Bisq",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408277"
+            ],
+            "value": "Bisq\\btc_mainnet\\wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408377"
+            ],
+            "value": "Bisq",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408547"
+            ],
+            "value": "Zap\\Local Storage\\leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408657"
+            ],
+            "value": "Zap",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408937"
+            ],
+            "value": "Discord",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408a38"
+            ],
+            "value": "DiscordCanary",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408b37"
+            ],
+            "value": "DiscordPTB",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408c37"
+            ],
+            "value": "Lightcord",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408dfb"
+            ],
+            "value": "DiscordDevelopment",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00408fba"
+            ],
+            "value": "Google Chrome",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004090ca"
+            ],
+            "value": "Google\\Chrome",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00409297"
+            ],
+            "value": "Google Chrome Beta",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040945b"
+            ],
+            "value": "Google\\Chrome Beta",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040961f"
+            ],
+            "value": "Google Chrome (x86)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004097e7"
+            ],
+            "value": "Google(x86)\\Chrome",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004099ab"
+            ],
+            "value": "Google Chrome SxS",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00409b6f"
+            ],
+            "value": "Google\\Chrome SxS",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00409c7c"
+            ],
+            "value": "360ChromeX",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00409e47"
+            ],
+            "value": "360ChromeX\\Chrome",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00409f57"
+            ],
+            "value": "Chromium",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040a067"
+            ],
+            "value": "Chromium",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040a167"
+            ],
+            "value": "Microsoft Edge",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040a267"
+            ],
+            "value": "Microsoft\\Edge",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040a367"
+            ],
+            "value": "Brave Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040a52b"
+            ],
+            "value": "BraveSoftware\\Brave-Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040a6ef"
+            ],
+            "value": "Epic Privacy Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040a8b7"
+            ],
+            "value": "Epic Privacy Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040a9b7"
+            ],
+            "value": "Amigo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040aac7"
+            ],
+            "value": "Amigo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040abd7"
+            ],
+            "value": "Vivaldi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ace7"
+            ],
+            "value": "Vivaldi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040adf7"
+            ],
+            "value": "Kometa",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040af07"
+            ],
+            "value": "Kometa",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b017"
+            ],
+            "value": "Orbitum",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b127"
+            ],
+            "value": "Orbitum",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b237"
+            ],
+            "value": "Mail.Ru Atom",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b347"
+            ],
+            "value": "Mail.Ru\\Atom",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b457"
+            ],
+            "value": "Comodo Dragon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b567"
+            ],
+            "value": "Comodo\\Dragon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b677"
+            ],
+            "value": "Torch",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b787"
+            ],
+            "value": "Torch",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b897"
+            ],
+            "value": "Comodo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040b9a7"
+            ],
+            "value": "Comodo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040baa7"
+            ],
+            "value": "Slimjet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040bbb7"
+            ],
+            "value": "Slimjet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040bcc7"
+            ],
+            "value": "360Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040be8b"
+            ],
+            "value": "360Browser\\Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040c04f"
+            ],
+            "value": "360 Secure Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040c15c"
+            ],
+            "value": "360se6",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040c269"
+            ],
+            "value": "Maxthon3",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040c377"
+            ],
+            "value": "Maxthon3\\Users",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040c487"
+            ],
+            "value": "Maxthon5",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040c64b"
+            ],
+            "value": "Maxthon5\\Users\\guest\\MagicFill",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040c758"
+            ],
+            "value": "Maxthon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040c91c"
+            ],
+            "value": "Maxthon\\Application",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ca29"
+            ],
+            "value": "QQBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040cbed"
+            ],
+            "value": "Tencent\\QQBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ccfa"
+            ],
+            "value": "K-Meleon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ce07"
+            ],
+            "value": "K-Meleon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040cf17"
+            ],
+            "value": "Xpom",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040d027"
+            ],
+            "value": "Xpom",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040d137"
+            ],
+            "value": "Lenovo Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040d2fb"
+            ],
+            "value": "Lenovo\\SLBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040d408"
+            ],
+            "value": "Xvast",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040d517"
+            ],
+            "value": "Xvast",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040d627"
+            ],
+            "value": "Go!",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040d737"
+            ],
+            "value": "Go!",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040d8fb"
+            ],
+            "value": "Safer Secure Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040db87"
+            ],
+            "value": "Safer Technologies\\Secure Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040dc97"
+            ],
+            "value": "Sputnik",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040dda7"
+            ],
+            "value": "Sputnik\\Sputnik",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040deb7"
+            ],
+            "value": "Nichrome",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040dfc7"
+            ],
+            "value": "Nichrome",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040e0d7"
+            ],
+            "value": "CocCoc Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040e1e7"
+            ],
+            "value": "CocCoc\\Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040e2f7"
+            ],
+            "value": "Uran",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040e407"
+            ],
+            "value": "uCozMedia\\Uran",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040e517"
+            ],
+            "value": "Chromodo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040e627"
+            ],
+            "value": "Chromodo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040e737"
+            ],
+            "value": "Yandex Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040e8fb"
+            ],
+            "value": "Yandex\\YandexBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ea08"
+            ],
+            "value": "7Star",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040eb17"
+            ],
+            "value": "7Star\\7Star",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ec27"
+            ],
+            "value": "Chedot",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ed37"
+            ],
+            "value": "Chedot",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ee47"
+            ],
+            "value": "CentBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040ef57"
+            ],
+            "value": "CentBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040f067"
+            ],
+            "value": "Iridium",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040f177"
+            ],
+            "value": "Iridium",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040f287"
+            ],
+            "value": "Opera Stable",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040f44b"
+            ],
+            "value": "Opera Software\\Opera Stable",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040f558"
+            ],
+            "value": "Opera Neon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040f71c"
+            ],
+            "value": "Opera Software\\Opera Neon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040f8e7"
+            ],
+            "value": "Opera Crypto Developer",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040fb77"
+            ],
+            "value": "Opera Software\\Opera Crypto Developer",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040fc87"
+            ],
+            "value": "Opera GX",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0040fe4b"
+            ],
+            "value": "Opera Software\\Opera GX Stable",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041000f"
+            ],
+            "value": "Elements Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004101d7"
+            ],
+            "value": "Elements Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004102e7"
+            ],
+            "value": "Citrio",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004104ab"
+            ],
+            "value": "CatalinaGroup\\Citrio",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041066f"
+            ],
+            "value": "Sleipnir5 ChromiumViewer",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004109ab"
+            ],
+            "value": "Fenrir Inc\\Sleipnir5\\setting\\modules\\ChromiumViewer",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00410ab8"
+            ],
+            "value": "QIP Surf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00410bc7"
+            ],
+            "value": "QIP Surf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00410cd7"
+            ],
+            "value": "Liebao",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00410de7"
+            ],
+            "value": "Liebao",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00410ef7"
+            ],
+            "value": "Coowon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411007"
+            ],
+            "value": "Coowon\\Coowon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411117"
+            ],
+            "value": "ChromePlus",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004112db"
+            ],
+            "value": "MapleStudio\\ChromePlus",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041149f"
+            ],
+            "value": "Rafotech Mustang",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411667"
+            ],
+            "value": "Rafotech\\Mustang",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411777"
+            ],
+            "value": "Suhba",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411887"
+            ],
+            "value": "Suhba",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411997"
+            ],
+            "value": "TorBro",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411aa7"
+            ],
+            "value": "TorBro\\Profile",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411bb7"
+            ],
+            "value": "RockMelt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411cc7"
+            ],
+            "value": "RockMelt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411dd7"
+            ],
+            "value": "Bromium",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411ee7"
+            ],
+            "value": "Bromium",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00411ff7"
+            ],
+            "value": "Twinkstar",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00412107"
+            ],
+            "value": "Twinkstar",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004122cb"
+            ],
+            "value": "CCleaner Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041248f"
+            ],
+            "value": "CCleaner Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041259c"
+            ],
+            "value": "AcWebBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004126a9"
+            ],
+            "value": "AcWebBrowserr",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004127b7"
+            ],
+            "value": "CoolNovo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004128c7"
+            ],
+            "value": "CoolNovo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004129d7"
+            ],
+            "value": "Baidu Spark",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00412ae7"
+            ],
+            "value": "Baidu Spark",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00412bf7"
+            ],
+            "value": "SRWare Iron",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00412d07"
+            ],
+            "value": "SRWare Iron",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00412e17"
+            ],
+            "value": "Titan Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00412f27"
+            ],
+            "value": "Titan Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413037"
+            ],
+            "value": "AVAST Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004131fb"
+            ],
+            "value": "AVAST Software\\Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413308"
+            ],
+            "value": "AVG Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413417"
+            ],
+            "value": "AVG\\Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413527"
+            ],
+            "value": "UCBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004136eb"
+            ],
+            "value": "UCBrowser\\User Data_i18n",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004137f8"
+            ],
+            "value": "URBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413907"
+            ],
+            "value": "URBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413a17"
+            ],
+            "value": "Blisk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413b27"
+            ],
+            "value": "Blisk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413c37"
+            ],
+            "value": "Flock",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413d47"
+            ],
+            "value": "Flock",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00413f0b"
+            ],
+            "value": "CryptoTab Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004140cf"
+            ],
+            "value": "CryptoTab Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004141dc"
+            ],
+            "value": "SwingBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004142e9"
+            ],
+            "value": "SwingBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004143f7"
+            ],
+            "value": "Sidekick",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414507"
+            ],
+            "value": "Sidekick",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414617"
+            ],
+            "value": "Superbird",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414727"
+            ],
+            "value": "Superbird",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414837"
+            ],
+            "value": "SalamWeb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414947"
+            ],
+            "value": "SalamWeb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414a57"
+            ],
+            "value": "GhostBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414b67"
+            ],
+            "value": "GhostBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414c77"
+            ],
+            "value": "NetboxBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414d87"
+            ],
+            "value": "NetboxBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414e97"
+            ],
+            "value": "GarenaPlus",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00414fa7"
+            ],
+            "value": "GarenaPlus",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004150b7"
+            ],
+            "value": "Kinza",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004151c7"
+            ],
+            "value": "Kinza",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041538b"
+            ],
+            "value": "InsomniacBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041554f"
+            ],
+            "value": "InsomniacBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041565c"
+            ],
+            "value": "ViaSat Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00415827"
+            ],
+            "value": "ViaSat\\Viasat Browser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00415937"
+            ],
+            "value": "Naver Whale",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00415afb"
+            ],
+            "value": "Naver\\Naver Whale",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00415c08"
+            ],
+            "value": "Falkon\\profiles",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00415d17"
+            ],
+            "value": "Falkon\\profiles",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00415ec7"
+            ],
+            "value": "Firefox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00415fc8"
+            ],
+            "value": "Mozilla\\Firefox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004160d8"
+            ],
+            "value": "SeaMonkey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041629c"
+            ],
+            "value": "Mozilla\\SeaMonkey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004163a9"
+            ],
+            "value": "Waterfox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004164b7"
+            ],
+            "value": "Waterfox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004165b7"
+            ],
+            "value": "K-Meleon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004166b7"
+            ],
+            "value": "K-Meleon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004167b7"
+            ],
+            "value": "Thunderbird",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004168c7"
+            ],
+            "value": "Thunderbird",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004169d7"
+            ],
+            "value": "CLIQZ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00416ae7"
+            ],
+            "value": "CLIQZ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00416bf7"
+            ],
+            "value": "IceDragon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00416dbb"
+            ],
+            "value": "Comodo\\IceDragon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00416ec8"
+            ],
+            "value": "Cyberfox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041708c"
+            ],
+            "value": "8pecxstudios\\Cyberfonx",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00417199"
+            ],
+            "value": "BlackHawk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041735d"
+            ],
+            "value": "NETGATE Technologies\\BlackHawk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041746a"
+            ],
+            "value": "Pale Moon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041762e"
+            ],
+            "value": "Moonchild Productions\\Pale Moon",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041773b"
+            ],
+            "value": "IceCat",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00417848"
+            ],
+            "value": "Mozilla\\IceCat",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00417957"
+            ],
+            "value": "Basilisk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00417b1b"
+            ],
+            "value": "Moonchild Productions\\Basilisk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00417c28"
+            ],
+            "value": "BitTube",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00417dec"
+            ],
+            "value": "BitTube\\BitTubeBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00417ef9"
+            ],
+            "value": "SlimBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004180bd"
+            ],
+            "value": "FlashPeak\\SlimBrowser",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041827a"
+            ],
+            "value": "Authenticator",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00418509"
+            ],
+            "value": "bhghoamapcdpbohphigoooaddinpkbai",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004186d7"
+            ],
+            "value": "Authenticator (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00418967"
+            ],
+            "value": "ocglkepbibnalbgmbachknglpdipeoio",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00418b2b"
+            ],
+            "value": "Trezor Password Manager",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00418db7"
+            ],
+            "value": "imloifkgjagghnncjkhggdhalmcnfklk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00418f7b"
+            ],
+            "value": "GAuth Authenticator",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00419207"
+            ],
+            "value": "ilgcnhelpchnceeipipijaljkblbcobl",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004193cb"
+            ],
+            "value": "EOS Authenticator",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00419657"
+            ],
+            "value": "oeljdldpnmdbchonielidgobddffflal",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00419757"
+            ],
+            "value": "1Password",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004199e7"
+            ],
+            "value": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00419bab"
+            ],
+            "value": "1Password (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00419e37"
+            ],
+            "value": "dppgmdbiimibapkepcbdbmkaabgiofem",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00419f37"
+            ],
+            "value": "KeePassXC (Web)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041a1c7"
+            ],
+            "value": "oboonakemofpalcgghocfoadofidjkkk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041a38b"
+            ],
+            "value": "KeePassXC (Web Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041a617"
+            ],
+            "value": "pdffhmdngciaglkoonimfcmckehcpafo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041a717"
+            ],
+            "value": "Dashlane",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041a9a7"
+            ],
+            "value": "fdjamakpfbbddfjaooikfcpapjohcfmg",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041aab7"
+            ],
+            "value": "Dashlane (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041ad47"
+            ],
+            "value": "gehmmocbbkpblljhkekmfhjpfbkclbph",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041ae57"
+            ],
+            "value": "Bitwarden",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041b0e7"
+            ],
+            "value": "nngceckbapebfimnlniiiahkandclblb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041b2ab"
+            ],
+            "value": "Bitwarden (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041b537"
+            ],
+            "value": "jbkfoedolllekgbhcbcoahefnbanhhlh",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041b637"
+            ],
+            "value": "NordPass",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041b8c7"
+            ],
+            "value": "fooolghllnmhmmndgjiamiiodkpenpbb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041b9d7"
+            ],
+            "value": "Keeper",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041bc67"
+            ],
+            "value": "bfogiafebfohielmmehodmfbbebbbpei",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041bd67"
+            ],
+            "value": "RoboForm (Web)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041bff7"
+            ],
+            "value": "pnlccmojcmeohlpggmfnbbiapkmbliob",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041c1bb"
+            ],
+            "value": "RoboForm (Web Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041c447"
+            ],
+            "value": "ljfpcifpgbbchoddpjefaipoiigpdmag",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041c557"
+            ],
+            "value": "LastPass",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041c7e7"
+            ],
+            "value": "hdokiejnpimakedhajhdlcegeplioahd",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041c8f7"
+            ],
+            "value": "LastPass (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041cb87"
+            ],
+            "value": "bbcinlkgjjkejfdpemiealijmmooekmp",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041cc97"
+            ],
+            "value": "BrowserPass",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041cf27"
+            ],
+            "value": "naepdomgkenhinolocfifgehidddafch",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041d037"
+            ],
+            "value": "MYKI",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041d2c7"
+            ],
+            "value": "bmikpgodpkclnkgmnpphehdgcimmided",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041d3d7"
+            ],
+            "value": "MYKI (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041d667"
+            ],
+            "value": "nofkfblpeailgignhkbnapbephdnmbmn",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041d777"
+            ],
+            "value": "Splikity",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041da07"
+            ],
+            "value": "jhfjfclepacoldmjmkmdlmganfaalklb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041db17"
+            ],
+            "value": "CommonKey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041dda7"
+            ],
+            "value": "chgfefjpcobfbnpmiokfjjaglahmnded",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041deb7"
+            ],
+            "value": "SAASPASS",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041e147"
+            ],
+            "value": "nhhldecdfagpbfggphklkaeiocfnaafm",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041e257"
+            ],
+            "value": "Zoho Vault",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041e4e7"
+            ],
+            "value": "igkpcodhieompeloncfnbekccinhapdb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041e5f7"
+            ],
+            "value": "Authy (Web)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041e887"
+            ],
+            "value": "gaedmjdfmmahhbjefcbgaolhhanlaolb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041ea49"
+            ],
+            "value": "Metamask",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041ece7"
+            ],
+            "value": "nkbihfbeogaeaoehlefnkodbefgpgknn",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041edf7"
+            ],
+            "value": "Metamask (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041f097"
+            ],
+            "value": "ejbalbakoplchlghecdalmeeeajnimhm",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041f269"
+            ],
+            "value": "Metamask (Opera)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041f507"
+            ],
+            "value": "djclckkglechooblngghdinmeemkbgci",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041f627"
+            ],
+            "value": "BinanceChain",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041f8c7"
+            ],
+            "value": "fhbohimaelbohpjbbldcngcnapndodjp",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041f9e7"
+            ],
+            "value": "Bitapp",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041fc87"
+            ],
+            "value": "fihkakfobkmkjojpchpfgcmhfjnmnfpi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0041fda7"
+            ],
+            "value": "Coin98",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00420047"
+            ],
+            "value": "aeachknmefphepccionboohckonoeemg",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00420167"
+            ],
+            "value": "Safe Pal",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00420407"
+            ],
+            "value": "lgmpcpglpngdoalbgeoldeajfclnhafa",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00420527"
+            ],
+            "value": "Safe Pal (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004207c7"
+            ],
+            "value": "apenkfbbpmhihehmihndmmcdanacolnh",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004208e7"
+            ],
+            "value": "DAppPlay",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00420b87"
+            ],
+            "value": "lodccjjbdhfakaekdiahmedfbieldgik",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00420ca7"
+            ],
+            "value": "Guarda",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00420f47"
+            ],
+            "value": "hpglfhgfnhbgpjdenjgmdgoeiappafln",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00421057"
+            ],
+            "value": "Equal",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004212f7"
+            ],
+            "value": "blnieiiffboillknjnepogjhkgnoapac",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00421417"
+            ],
+            "value": "Guild",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004216b7"
+            ],
+            "value": "nanjmdknhkinifnkgdcggcfnhdaammmj",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004217d7"
+            ],
+            "value": "Casper",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00421a77"
+            ],
+            "value": "abkahkcbhngaebpcgfmhkoioedceoigp",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00421b97"
+            ],
+            "value": "Casper (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00421e37"
+            ],
+            "value": "dfmbcapkkeejcpmfhpnglndfkgmalhik",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00421f57"
+            ],
+            "value": "ICONex",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004221f7"
+            ],
+            "value": "flpiciilemghbmfalicajoolhkkenfel",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00422317"
+            ],
+            "value": "Math",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004225b7"
+            ],
+            "value": "afbcbjpbpfadlkmhmclhkeeodmamcflc",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004226d7"
+            ],
+            "value": "Math (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00422977"
+            ],
+            "value": "dfeccadlilpndjjohbjdblepmjeahlmm",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00422a97"
+            ],
+            "value": "Mobox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00422d37"
+            ],
+            "value": "fcckkdbjnoikooededlapcalpionmalo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00422e57"
+            ],
+            "value": "Phantom",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004230f7"
+            ],
+            "value": "bfnaelmomeimhlpmgjnjophhpkkoljpa",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00423217"
+            ],
+            "value": "TronLink",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004234b7"
+            ],
+            "value": "ibnejdfjmmkpcnlpebklmnkoeoihofec",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004235d7"
+            ],
+            "value": "TokenPocket",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00423877"
+            ],
+            "value": "mfgccjchihfkkindfppnaooecgfneiii",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00423997"
+            ],
+            "value": "XinPay",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00423c37"
+            ],
+            "value": "bocpokimicclpaiekenaeelehdjllofo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00423d57"
+            ],
+            "value": "Ton",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00423ff7"
+            ],
+            "value": "nphplpgoakhhjchkkhmiggakijnkhfnd",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00424117"
+            ],
+            "value": "Sollet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004243b7"
+            ],
+            "value": "fhmfendgdocmcbmfikdcogofphimnkno",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004244d7"
+            ],
+            "value": "Slope",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00424777"
+            ],
+            "value": "pocmplpaccanhmnllbbkpgfliimjljgo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00424897"
+            ],
+            "value": "DuinoCoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00424b37"
+            ],
+            "value": "ippiokklhjjdlmmonmjimgbgnnllcleg",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00424c57"
+            ],
+            "value": "Starcoin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00424ef7"
+            ],
+            "value": "mfhbebgoclkghebffdldpobeajmbecfk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00425017"
+            ],
+            "value": "Hiro Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004252b7"
+            ],
+            "value": "ldinpeekobnhjjdofggfgjlcehhmanlj",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004253d7"
+            ],
+            "value": "MetaWallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00425677"
+            ],
+            "value": "bkklifkecemccedpkhcebagjpehhabfb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00425797"
+            ],
+            "value": "Swash",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00425a37"
+            ],
+            "value": "cmndjbecilbocjfkibfbifhngkdmjgog",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00425b57"
+            ],
+            "value": "Finnie",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00425df7"
+            ],
+            "value": "cjmkndjhnagcfbpiemnkdpomccnjblmj",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00425f17"
+            ],
+            "value": "Keplr",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004261b7"
+            ],
+            "value": "dmkamcknogkgcdfhhbddcghachkejeap",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004262d7"
+            ],
+            "value": "Crocobit",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00426577"
+            ],
+            "value": "pnlfjmlcjdjgkddecgincndfgegkecke",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00426697"
+            ],
+            "value": "Oxygen",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00426937"
+            ],
+            "value": "fhilaheimglignddkjgofkcbgekhenbh",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00426a57"
+            ],
+            "value": "Nifty",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00426cf7"
+            ],
+            "value": "jbdaocneiiinmjbjlgalhcelgbejmnid",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00426e17"
+            ],
+            "value": "Liquality",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004270b7"
+            ],
+            "value": "kpfopkelmapcoipemfendmdcghnegimn",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004271d7"
+            ],
+            "value": "Ronin",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00427477"
+            ],
+            "value": "fnjhmkhhmkbjkkabndcnnogagogbneec",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00427597"
+            ],
+            "value": "Ronin (Edge)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00427837"
+            ],
+            "value": "kjmoohlgokccodicjjfebfomlbljgfhk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00427957"
+            ],
+            "value": "Oasis",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00427bf7"
+            ],
+            "value": "ppdadbejkmjnefldpcdjhnkpbjkikoip",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00427d17"
+            ],
+            "value": "Temple",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00427fb7"
+            ],
+            "value": "ookjlbkiijinhpmnjffcofjonbfbgaoc",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004280d7"
+            ],
+            "value": "Pontem",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00428377"
+            ],
+            "value": "phkbamefinggmakgklpkljjmgibohnba",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00428497"
+            ],
+            "value": "Solflare",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00428737"
+            ],
+            "value": "bhhhlbepdkbapadjdnnojkbgioiodbic",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00428857"
+            ],
+            "value": "Yoroi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00428af7"
+            ],
+            "value": "ffnbelfdoeiohenkjibnmadjiehjhajb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00428c17"
+            ],
+            "value": "iWallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00428eb7"
+            ],
+            "value": "kncchdigobghenbbaddojjnnaogfppfj",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00428fd7"
+            ],
+            "value": "Wombat",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00429277"
+            ],
+            "value": "amkmjjmmflddogmhpjloimipbofnfjih",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00429397"
+            ],
+            "value": "Coinbase",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00429637"
+            ],
+            "value": "hnfanknocfeofbddgcijnmhnfnkdnaad",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00429757"
+            ],
+            "value": "MewCx",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004299f7"
+            ],
+            "value": "nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00429bc9"
+            ],
+            "value": "Jaxx Liberty (Web)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00429e67"
+            ],
+            "value": "cjelfplplebdjjenllpjcblmjkfcffne",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00429f87"
+            ],
+            "value": "OneKey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042a227"
+            ],
+            "value": "jnmbobjmhlngoefaiojfljckilhhlhcj",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042a3f9"
+            ],
+            "value": "Hycon Lite Client",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042a697"
+            ],
+            "value": "bcopgchhojmggmffilplmbdicgaihlkp",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042a869"
+            ],
+            "value": "SubWallet (Polkadot)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042ab07"
+            ],
+            "value": "onhogfjeacnfoofkfgppdlbmlmnplgbn",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042ac27"
+            ],
+            "value": "Goby",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042aec7"
+            ],
+            "value": "jnkelfanjkeadonecabehalmbgpfodjm",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042afe7"
+            ],
+            "value": "TezBox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042b287"
+            ],
+            "value": "mnfifefkajgofkcjkemidiaecocnkjeh",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042b3a7"
+            ],
+            "value": "ONTO Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042b647"
+            ],
+            "value": "ifckdpamphokdglkkdomedpdegcjhjdp",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042b767"
+            ],
+            "value": "Hashpack",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042ba07"
+            ],
+            "value": "gjagmgiddbbciopjhllkdnddhcglnemk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042bb27"
+            ],
+            "value": "Cyano",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042bdc7"
+            ],
+            "value": "dkdedlpgdmmkkfjabffeganieamfklkm",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042bee7"
+            ],
+            "value": "Martian Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042c187"
+            ],
+            "value": "efbglgofoippbgcjepnhiblaibcnclgk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042c2a7"
+            ],
+            "value": "Sender Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042c547"
+            ],
+            "value": "epapihdplajcdnnkdeiahlgigofloibg",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042c667"
+            ],
+            "value": "Zecrey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042c907"
+            ],
+            "value": "ojbpcbinjmochkhelkflddfnmcceomdi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042ca27"
+            ],
+            "value": "Auro",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042ccc7"
+            ],
+            "value": "cnmamaachppnkjgnildpdmkaakejnhae",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042cde7"
+            ],
+            "value": "Terra Station",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042d087"
+            ],
+            "value": "aiifbnbfobpmeekipheeijimdpnlpgpp",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042d1a7"
+            ],
+            "value": "KardiaChain",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042d447"
+            ],
+            "value": "pdadjkfkgcafgbceimcpbkalnfnepbnk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042d567"
+            ],
+            "value": "Rabby",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042d807"
+            ],
+            "value": "acmacodkjbdgmoleebolmdjonilkdbch",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042d927"
+            ],
+            "value": "NeoLine",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042dbc7"
+            ],
+            "value": "cphhlgmgameodnhkjdmkpanlelnlohao",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042dce7"
+            ],
+            "value": "Nabox",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042df87"
+            ],
+            "value": "nknhiehlklippafakaeklbeglecifhad",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042e0a7"
+            ],
+            "value": "XDeFi",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042e347"
+            ],
+            "value": "hmeobnfnfcmdkdcmlblgagmfpfboieaf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042e467"
+            ],
+            "value": "KHC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042e707"
+            ],
+            "value": "hcflpincpppdclinealmandijcmnkbgn",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042e827"
+            ],
+            "value": "OneKey",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042eac7"
+            ],
+            "value": "jnmbobjmhlngoefaiojfljckilhhlhcj",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042ebe7"
+            ],
+            "value": "Auro",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042ee87"
+            ],
+            "value": "cnmamaachppnkjgnildpdmkaakejnhae",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042efa7"
+            ],
+            "value": "CLW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042f247"
+            ],
+            "value": "nhnkbkgjikgcigadomkphalanndcapjk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042f367"
+            ],
+            "value": "Polymesh",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042f607"
+            ],
+            "value": "jojhfeoedkpkglbfimdfabpdfjaoolaf",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042f727"
+            ],
+            "value": "ZilPay",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042f9c7"
+            ],
+            "value": "klnaejjgbibmhlephnhpmaofohgkpgkd",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042fae7"
+            ],
+            "value": "Byone",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042fd87"
+            ],
+            "value": "nlgbhdfgdhgbiamfdfmbikcdghidoadd",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0042fea7"
+            ],
+            "value": "Eternl",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00430147"
+            ],
+            "value": "kmhcihpebfmpgmihbkipmjlmmioameka",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00430267"
+            ],
+            "value": "Guarda (Web)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00430507"
+            ],
+            "value": "acdamagkdfmpkclpoglgnbddngblgibo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00430627"
+            ],
+            "value": "Nami",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004308c7"
+            ],
+            "value": "lpfcbjknijpeeillifnkikgncikgfhdo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00430a99"
+            ],
+            "value": "Maiar DeFi Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00430d37"
+            ],
+            "value": "dngmlblcodfobpdpecaadgfbcggfjfnm",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00430e57"
+            ],
+            "value": "Leaf Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004310f7"
+            ],
+            "value": "cihmoadaighcejopammfbmddcmdekcje",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00431217"
+            ],
+            "value": "Brave Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004314b7"
+            ],
+            "value": "odbfpeeihdkbihmopkbjmoonfanlbfcl",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004315d7"
+            ],
+            "value": "Opera Wallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00431877"
+            ],
+            "value": "gojhcdgcpbpfigcaejpfhfegekdgiblk",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00431997"
+            ],
+            "value": "CardWallet",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00431c37"
+            ],
+            "value": "apnehcjmnengpnmccpaibjmhhoadaico",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00431d57"
+            ],
+            "value": "Flint",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00432b37"
+            ],
+            "value": "Web Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00432c38"
+            ],
+            "value": "Web Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00432d39"
+            ],
+            "value": "Network\\Cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00432e37"
+            ],
+            "value": "Network Cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00432f47"
+            ],
+            "value": "Cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00433057"
+            ],
+            "value": "Cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043321b"
+            ],
+            "value": "Extension Cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004333df"
+            ],
+            "value": "Extension Cookies",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004334ec"
+            ],
+            "value": "Bookmarks",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004335f9"
+            ],
+            "value": "Bookmarks",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004336f7"
+            ],
+            "value": "History",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00433807"
+            ],
+            "value": "History",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00433917"
+            ],
+            "value": "Login Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00433a27"
+            ],
+            "value": "Login Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00433b37"
+            ],
+            "value": "Ya Passman Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00433c47"
+            ],
+            "value": "Login Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00433d57"
+            ],
+            "value": "UC Login Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00433e67"
+            ],
+            "value": "Login Data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043402b"
+            ],
+            "value": "Login Data For Account",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004341ef"
+            ],
+            "value": "Login Data For Account",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004344c7"
+            ],
+            "value": "cookies.sqlite",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004345c8"
+            ],
+            "value": "logins.json",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004346c7"
+            ],
+            "value": "signons.sqlite",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004347c7"
+            ],
+            "value": "key4.db",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004348c7"
+            ],
+            "value": "key3.db",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00434a8b"
+            ],
+            "value": "autofill-profiles.json",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00434c4f"
+            ],
+            "value": "formhistory.sqlite",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00434dbb"
+            ],
+            "value": "77.105.147.1",
+            "encryption_key": null
+        },
+        {
+            "type": "socket",
+            "tags": [
+                "c2"
+            ],
+            "address": "77.105.147.1",
+            "port": 15666,
+            "network_protocol": "tcp",
+            "listen": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00434ec7"
+            ],
+            "value": "RU",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00434f8c"
+            ],
+            "value": "KZ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00435057"
+            ],
+            "value": "BY",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043511c"
+            ],
+            "value": "GE",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004351e7"
+            ],
+            "value": "TM",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004352c7"
+            ],
+            "value": "UZ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004353a7"
+            ],
+            "value": "AM",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00435487"
+            ],
+            "value": "KG",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00435567"
+            ],
+            "value": "MD",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00435647"
+            ],
+            "value": "TJ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00438db7"
+            ],
+            "value": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{53F49750-6209-4FBF-9CA8-7A333C87D1ED}_is1",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004395d7"
+            ],
+            "value": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{C4A4AE8F-B9F7-4CC7-8A6C-BF7EEE87ACA5}_is1",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00439aac"
+            ],
+            "value": "tdummy",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00439b77"
+            ],
+            "value": "user_data",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00439c3b"
+            ],
+            "value": "user_data#2",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00439cff"
+            ],
+            "value": "user_data#3",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00439dc7"
+            ],
+            "value": "ktg_lang",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043a067"
+            ],
+            "value": "tdata",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043aeb8"
+            ],
+            "value": "Kotatogram",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043b107"
+            ],
+            "value": "Etherwall",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043b387"
+            ],
+            "value": "SOFTWARE\\Etherdyne\\Etherwall\\geth",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043b487"
+            ],
+            "value": "datadir",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043bd17"
+            ],
+            "value": "MoneroCore",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043bf97"
+            ],
+            "value": "SOFTWARE\\monero-project\\monero-core",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043c097"
+            ],
+            "value": "wallet_path",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043ca67"
+            ],
+            "value": "strDataDir",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043cb68"
+            ],
+            "value": "wallet.dat",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043cd37"
+            ],
+            "value": "SOFTWARE\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043dbc7"
+            ],
+            "value": "Steam",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043dd8e"
+            ],
+            "value": "SOFTWARE\\Valve\\Steam",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043de8c"
+            ],
+            "value": "SteamPath",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043f5c7"
+            ],
+            "value": "Local Storage\\leveldb",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0043ffb7"
+            ],
+            "value": "OpenVPN Connect\\profiles",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "004401b7"
+            ],
+            "value": ".ovpn",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00445e17"
+            ],
+            "value": "Root",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "0044f6fb"
+            ],
+            "value": "encrypted_key",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00455abe"
+            ],
+            "value": "SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00455bbf"
+            ],
+            "value": "TimeZoneKeyName",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [
+                "00456a07"
+            ],
+            "value": "https://api.ipify.org",
+            "encryption_key": null
+        }
+    ]
+}
