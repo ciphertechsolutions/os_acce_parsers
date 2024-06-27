@@ -1,0 +1,19 @@
+container_name = "os-yara-service"
+
+deps = []
+
+[build_args]
+extra_deps = [
+    "gunicorn[eventlet]~=20.0.4",
+    "eventlet==0.30.2",
+    "flask~=2.0.0",
+    "werkzeug>=2.0,<3.0",
+    "flask-log-request-id~=0.10.1",
+    "sentry-sdk[flask]>=0.14.1"
+]
+
+[options]
+# These are the CT-provided YARA Rules
+[[options.rules]]
+source_path = "./os_acce_parsers/resources/rules"
+package_name = "acce_rules"

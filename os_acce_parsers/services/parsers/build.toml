@@ -1,0 +1,9 @@
+container_name = "os-acce-parsers"
+
+deps = [
+]
+
+[build_args]
+local_deps = ""
+extra_deps = ["appdirs"]
+index_url = "https://<username>:<api_key>@<your_url>.acce.ciphertechsolutions.com/pypi/simple"

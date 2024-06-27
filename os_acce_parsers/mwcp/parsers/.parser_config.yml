@@ -12,3 +12,9 @@ Stealc:
   author: CT
   parsers:
     - .Stealer
+
+WarmCookie:
+  description: WarmCookie malware
+  author: CT
+  parsers:
+    - .Backdoor

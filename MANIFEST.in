@@ -1,0 +1,10 @@
+recursive-include os_acce_parsers *.pyx
+include os_acce_parsers/mwcp/parsers/.parser_config.yml
+include os_acce_parsers/utils/stringhashing/string_dict.json
+recursive-exclude os_acce_parsers/mwcp/parsers/tests *
+recursive-exclude os_acce_parsers/kordesii/decoders/tests *
+include CHANGELOG.rst
+include README.rst
+include VERSION
+recursive-include os_acce_parsers/resources *
+recursive-include os_acce_parsers/services *

@@ -7,8 +7,8 @@ from collections import defaultdict
 import re
 from typing import List, Callable, Tuple
 
-import ioc_util
 import pefile
+import regex
 
 from mwcp import Parser, FileObject, metadata
 import dragodis
@@ -19,7 +19,7 @@ from rugosa import Emulator
 from rugosa.emulation.cpu_context import ProcessorContext
 from rugosa.emulation.operands import Operand
 
-from acce_parsers.mwcp.utils import logctx
+from os_acce_parsers.utils import log_bookends
 
 
 class Base(Parser):
@@ -27,6 +27,16 @@ class Base(Parser):
 
     MIN_MATCHES = 350
     MISSIONID = re.compile(b"timezone\x00+(?P<mid>[\w\d]+)\x00+ip\x00")
+    # language=PythonVerboseRegExp
+    IPv4 = regex.compile(
+        r"""
+            (?(DEFINE)
+                (?P<octet>25[0-5]|2[0-4]\d|1\d\d|[1-9]\d|\d)    # number from 0 - 255
+            )
+            (?&octet)(?:\.(?&octet)){3}                         # 4 octets separated by .
+        """,
+        re.DOTALL | re.VERBOSE
+    )
 
     # MUST be implemented by child class
     XOR_CALC_SIZE = None
@@ -75,7 +85,7 @@ class Base(Parser):
 
         :return:
         """
-        with logctx.log_bookends(self):
+        with log_bookends(self):
             if match := self.MISSIONID.search(self.file_object.data):
                 self.report.add(metadata.MissionID(match.group("mid").decode("utf-8")))
             decrypted = []
@@ -105,7 +115,7 @@ class Base(Parser):
 
                 for offset, value in decrypted:
                     self.report.add(metadata.DecodedString(value).add_tag(f"{offset:08x}"))
-                    if ioc_util.IPv4.fullmatch(value):
+                    if self.IPv4.fullmatch(value):
                         port = self.get_port(offset, dis, emu)
                         self.report.add(metadata.Socket2(value, port, 'tcp').add_tag('c2'))
 

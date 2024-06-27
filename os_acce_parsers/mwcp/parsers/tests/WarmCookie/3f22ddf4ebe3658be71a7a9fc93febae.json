@@ -1,0 +1,412 @@
+{
+    "type": "report",
+    "tags": [],
+    "mwcp_version": "3.14.0",
+    "input_file": {
+        "type": "file",
+        "tags": [],
+        "name": "release.dll",
+        "description": "WarmCookie Backdoor",
+        "md5": "3f22ddf4ebe3658be71a7a9fc93febae",
+        "sha1": "a0b9dbc40ed909fa7206cd3174d60204f4043231",
+        "sha256": "f3056fc0ab93b640898ceca00c72140bdf90fb167f36f395862b7e541d0a9ce7",
+        "architecture": "x64",
+        "compile_time": "2017-10-08T19:12:12+00:00",
+        "file_path": null,
+        "data": null,
+        "derivation": null
+    },
+    "parser": "osacce:WarmCookie",
+    "recursive": false,
+    "external_knowledge": {},
+    "errors": [],
+    "logs": [
+        "[+] File release.dll identified as WarmCookie Backdoor.",
+        "[+] Starting parser WarmCookie Backdoor on sample release.dll. Expected results include RC4 decrypted strings, a c2 socket address, a user-agent, and a named mutex.",
+        "[+] Completed parsing using WarmCookie Backdoor for sample release.dll."
+    ],
+    "metadata": [
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetNativeSystemInfo",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GlobalMemoryStatusEx",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetOpenW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetSetOptionW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetQueryOptionW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetConnectW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HttpOpenRequestW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HttpSendRequestW",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetReadFile",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InternetCloseHandle",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "|",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "-",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "OK",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "OK (See 'Files' tab)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "24de21a8dc08434c",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "RtlGetVersion",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetDC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GetSystemMetrics",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ReleaseDC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateCompatibleBitmap",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SelectObject",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateCompatibleDC",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DeleteObject",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "BitBlt",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdiplusStartup",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipGetImageEncodersSize",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipGetImageEncoders",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipCreateBitmapFromHBITMAP",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipSaveImageToStream",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdipDisposeImage",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GdiplusShutdown",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "CreateStreamOnHGlobal",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "%ls\\*.*",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": ".\u0000",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "..",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DisplayName",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "KERNEL32.DLL",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "WININET.DLL",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GET",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "POST",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Cookie: ",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "HARDWARE\\DESCRIPTION\\System\\CentralProcessor",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "ProcessorNameString",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "DisplayVersion",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "InstallDate",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "cd",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "cmd.exe /c %ls",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "C:\\",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "Mozilla / 4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1;.NET CLR 1.0.3705)",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "80.66.88.146",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "1696cc89-7daa-45d4-94de-bf19c10bd8b2",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "NTDLL.DLL",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "image/jpeg",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "USER32.DLL",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GDI32.DLL",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "GDIPLUS.DLL",
+            "encryption_key": null
+        },
+        {
+            "type": "decoded_string",
+            "tags": [],
+            "value": "OLE32.DLL",
+            "encryption_key": null
+        },
+        {
+            "type": "mutex",
+            "tags": [],
+            "value": "1696cc89-7daa-45d4-94de-bf19c10bd8b2"
+        },
+        {
+            "type": "user_agent",
+            "tags": [],
+            "value": "Mozilla / 4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1;.NET CLR 1.0.3705)"
+        },
+        {
+            "type": "socket",
+            "tags": [
+                "c2"
+            ],
+            "address": "80.66.88.146",
+            "port": 80,
+            "network_protocol": "tcp",
+            "listen": null
+        },
+        {
+            "type": "file",
+            "tags": [],
+            "name": "release.dll.i64",
+            "description": "IDA Project File",
+            "md5": "69d56e6a28e77a8b8b5662feb174a8d5",
+            "sha1": "06eb28e970415c7f37267830bb612309a3091f1c",
+            "sha256": "11a659afc99465a66d13a1e64311bc0b66857ddd1f4395b9ba25d3730afd5a75",
+            "architecture": null,
+            "compile_time": null,
+            "file_path": null,
+            "data": null,
+            "derivation": "supplemental"
+        }
+    ]
+}
